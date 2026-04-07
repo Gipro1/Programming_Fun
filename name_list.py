@@ -33,5 +33,7 @@ while True:
         print("Please enter valid response.")
         continue # restarts prompt if response invalid
 
+nameList.sort() # sorts the list before printing, added by kyle
+
 print("Members added: ", nameList)
 
